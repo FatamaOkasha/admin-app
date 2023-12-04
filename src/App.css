@@ -1,0 +1,131 @@
+body {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* height: 100vh; */
+  margin: 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+
+  padding: 15px;
+}
+
+th {
+  background-color: #4682a9;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Optional: Add hover effect on rows */
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+button {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+
+  /* Text color */
+}
+.edit-btn {
+  background-color: #3085c3;
+}
+.delete-btn {
+  background-color: #ff6666;
+}
+.edit-btn:hover {
+  background-color: #065893;
+}
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  margin-left: 1%;
+}
+
+/* Style for pagination item */
+.pagination li {
+  margin-right: 10px;
+}
+
+/* Style for pagination link */
+.pagination a {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  background-color: #2980b9;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for pagination link */
+.pagination a:hover {
+  background-color: #065893;
+}
+input {
+  cursor: pointer;
+}
+.search {
+  position: relative;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  margin-left: 10px;
+  padding: 20px;
+  border-radius: 15px;
+}
+.search-icon {
+  position: absolute;
+  padding: 6px;
+  color: gray;
+  /* min-width: 50px; */
+  /* margin-right: 20%; */
+  left: 10%;
+  top: 4px;
+  cursor: pointer;
+}
+.reset-btn {
+  background-color: #3085c3;
+  /* display: inline-block; */
+  padding: 5px 10px;
+  margin-left: 20px;
+  font-size: 16px;
+  /* text-align: center; */
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+.delete-all-btn {
+  background-color: #ff6666;
+  float: right;
+  margin-bottom: 4px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
